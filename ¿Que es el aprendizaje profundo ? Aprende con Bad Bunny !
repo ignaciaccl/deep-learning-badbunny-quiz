@@ -1,0 +1,185 @@
+🧠 ¿Qué es el aprendizaje profundo?
+El aprendizaje profundo es una forma avanzada de aprendizaje automático. Usa redes neuronales artificiales que funcionan como el cerebro humano: aprenden a partir de datos.
+🧠💻 En vez de neuronas biológicas, usamos funciones matemáticas que "activan" señales.
+
+🎤 Ejemplo con Bad Bunny
+Supón que tenemos una red neuronal que escucha una frase y dice de qué canción es.
+ Por ejemplo, le das esta línea:
+“Baby, la vida es un ciclo, y lo que no sirve yo no lo reciclo”
+Y el modelo te dice:
+🎶 Esa frase es de “Yonaguni” ✅
+
+🔢 ¿Cómo aprende esto la red neuronal?
+Entrenamos al modelo con muchas letras de canciones de Bad Bunny:
+
+
+Cada línea de letra es una entrada (x).
+
+
+La canción a la que pertenece es la etiqueta (y).
+
+
+Por ejemplo:
+
+ vbnet
+CopiarEditar
+x: "Baby, la vida es un ciclo..."
+y: "Yonaguni"
+
+
+La red neuronal pasa esa frase por muchas capas de “neuronas” (funciones matemáticas) que procesan:
+
+
+Palabras
+
+
+Estructura
+
+
+Ritmo
+
+
+Estilo (por ejemplo, frases como “bebé” o “ya tú sabes” aparecen en ciertas canciones)
+
+
+La red genera una probabilidad de que esa frase sea de cada canción:
+
+ vbnet
+CopiarEditar
+Yonaguni: 90%
+Safaera: 5%
+Tití Me Preguntó: 5%
+
+
+Como Yonaguni tiene el porcentaje más alto, esa es la predicción final 🎯
+
+
+
+🔁 ¿Y cómo mejora la red?
+👉 Al principio se equivoca, como cuando tú escuchas un álbum nuevo y no sabes cuál es cuál.
+Pero poco a poco va “aprendiendo”:
+Calcula su error (por ejemplo, dijo "Safaera" pero era "Yonaguni").
+
+
+Ajusta los pesos (w) de la red para que la próxima vez lo haga mejor.
+
+
+Repite esto miles de veces con muchísimas frases (como si escuchara TODO el disco mil veces).
+
+
+Eso se llama entrenamiento con descenso de gradiente 🪂, una técnica que baja el error poco a poco.
+
+
+
+
+
+
+
+🎧 ¿Y para qué sirve esto?
+Redes neuronales como esta se usan en:
+Reconocimiento de voz (como Siri entendiendo “pon música de Bad Bunny”)
+
+
+Clasificación de texto (saber si una letra es triste, feliz, etc.)
+
+
+Recomendaciones musicales (cuando Spotify te recomienda “si te gusta Tití Me Preguntó, prueba ‘Me Porto Bonito’”).
+
+
+
+📌 Resumen estilo Bad Bunny
+Concepto
+Ejemplo con Bad Bunny
+Entrada (x)
+Letra de una canción
+Salida (y)
+El nombre de la canción
+Red neuronal
+Cerebro que escucha letras y predice canciones
+Pesos (w)
+“Experiencia” de la red: cuánto pesan ciertas palabras o frases
+Función de activación
+Decide si una señal debe pasar (como si una frase suena muy al estilo de Bad Bunny)
+Función de pérdida
+Qué tan mal predijo la red (ej: dijo "Safaera" pero era "Yonaguni")
+Entrenamiento
+Proceso de escuchar miles de frases para mejorar las predicciones
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🧠 QUIZ DE APRENDIZAJE PROFUNDO (VERSIÓN BAD BUNNY)
+1. Bad Bunny quiere que su IA recomiende canciones tristes. ¿Qué debe hacer primero?
+A. Darle las canciones favoritas de sus fans
+ B. Enseñarle letras tristes y alegres con etiquetas
+ C. Poner todas sus canciones en orden alfabético
+ D. Hacer que escuche el álbum completo sin decirle nada
+
+2. Cuando una red neuronal ajusta sus pesos para mejorar, eso se llama:
+A. Cambiar el beat
+ B. Backpropagation
+ C. Afinar el autotune
+ D. Reggaetune learning
+
+3. Si la red neuronal confunde "Tití me preguntó" con "Me porto bonito", ¿qué está pasando?
+A. No sabe español
+ B. Tiene overfitting
+ C. Está generalizando mal porque ambas tienen temas similares
+ D. Se enamoró de Tití
+
+4. ¿Cuál es el propósito de la función de activación en una red neuronal?
+A. Elegir el mejor reggaetón de la semana
+ B. Aumentar el volumen de la salida
+ C. Decidir si una neurona transmite información o no
+ D. Mostrar si la canción es explícita
+
+5. Si entrenas una red con miles de letras de Bad Bunny para que adivine la canción, estás haciendo:
+A. Machine twerking
+ B. Deep learning supervisado
+ C. Auto-reggaetón no supervisado
+ D. Aprendizaje sin perreo
+
+6. Bad Bunny quiere que su IA identifique si una letra es de amor o de fiesta. ¿Qué tipo de salida debería tener su modelo?
+A. Texto plano
+ B. Una probabilidad por cada categoría
+ C. Un beat nuevo
+ D. El nombre de un álbum
+
+7. En deep learning, ¿qué significa “época” (epoch)?
+A. El número de giras de Bad Bunny
+ B. Una capa especial de reggaetón lento
+ C. Una vuelta completa por todos los datos de entrenamiento
+ D. El número de fans que lloraron con "Amorfoda"
+
+8. ¿Qué problema ocurre si la red memoriza todas las letras pero falla con frases nuevas?
+A. Overfitting
+ B. Underperreo
+ C. Buen flow
+ D. Reinicio de tour
+
+9. ¿Qué es el descenso de gradiente?
+A. Cuando la canción baja el beat
+ B. Una técnica para reducir el error ajustando pesos poco a poco
+ C. El nombre de su nuevo álbum
+ D. Cuando baja la energía del concierto
+
+10. ¿Cuál de estas opciones NO es parte de una red neuronal profunda?
+A. Capa de entrada
+ B. Capa oculta
+ C. Capa de salida
+ D. Capa de fiesta
+
+
